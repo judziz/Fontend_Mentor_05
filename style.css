@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Lexend", sans-serif;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+}
+.main {
+  display: flex;
+  margin: 20rem auto auto auto;
+  max-width: 100rem;
+}
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.card-1 {
+  padding: 4.5rem 4.8rem 4.5rem 5rem;
+  background-color: hsl(31, 77%, 52%);
+}
+.card-2 {
+  padding: 4.5rem 4.8rem 4.5rem 5rem;
+  background-color: hsl(184, 100%, 22%);
+}
+.card-3 {
+  padding: 4.5rem 3rem 4.5rem 5rem;
+  background-color: hsl(179, 100%, 13%);
+}
+.card-icon {
+  margin-bottom: 4rem;
+  width: 8rem;
+}
+.card-heading {
+  margin-bottom: 3.5rem;
+  font-size: 4.8rem;
+  font-family: "Big Shoulders Display", sans-serif;
+  color: #fff;
+}
+.card-text {
+  color: #fff;
+  font-size: 1.7rem;
+  line-height: 1.7;
+  margin-bottom: 10rem;
+}
+.card-link-1 {
+  color: hsl(31, 77%, 52%);
+  font-size: 1.6rem;
+  text-decoration: none;
+  background-color: #fff;
+  padding: 1.7rem 3.5rem;
+  border-radius: 100px;
+}
+.card-link-1:hover {
+  color: #fff;
+  background-color: hsl(31, 77%, 52%);
+  box-shadow: 0px 0px 0px 3px #fff inset;
+}
+.card-link-2 {
+  color: hsl(184, 100%, 22%);
+  font-size: 1.6rem;
+  text-decoration: none;
+  background-color: #fff;
+  padding: 1.7rem 3.5rem;
+  border-radius: 100px;
+}
+.card-link-2:hover {
+  color: #fff;
+  background-color: hsl(184, 100%, 22%);
+  box-shadow: 0px 0px 0px 3px #fff inset;
+}
+.card-link-3 {
+  color: hsl(179, 100%, 13%);
+  font-size: 1.6rem;
+  text-decoration: none;
+  background-color: #fff;
+  padding: 1.7rem 3.5rem;
+  border-radius: 100px;
+}
+.card-link-3:hover {
+  color: #fff;
+  background-color: hsl(179, 100%, 13%);
+  box-shadow: 0px 0px 0px 3px #fff inset;
+}
+@media (max-width: 61em) {
+  .main {
+    display: flex;
+    margin: 10rem auto 10rem auto;
+    max-width: 33rem;
+  }
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  .card-1 {
+    padding: 4.5rem 3rem 4.5rem 5rem;
+  }
+  .card-2 {
+    padding: 4.5rem 3rem 4.5rem 5rem;
+  }
+  .card-3 {
+    padding: 4.5rem 3rem 4.5rem 5rem;
+  }
+}
