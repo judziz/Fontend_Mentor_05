@@ -3,7 +3,7 @@
 | Useful Links  |
 | ----------------- |
 [Assignement Link](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-)
-[Vercel Link - Desktop version](https://frontend-mentor-05.vercel.app/)
+[Vercel Link - Desktop version](https://fontend-mentor-05.vercel.app/)
 
 ---
 
